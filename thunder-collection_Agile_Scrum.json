@@ -1,0 +1,79 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Agile_Scrum",
+    "collectionId": "77ccb12c-3c17-43a8-b807-606284892e3b",
+    "dateExported": "2024-05-28T16:58:38.366Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5c9c3b4a-9c95-4b25-90e7-f60799c86dd0",
+            "colId": "77ccb12c-3c17-43a8-b807-606284892e3b",
+            "containerId": "",
+            "name": "create_account",
+            "url": "http://localhost:5030/account/createAccount",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-28T14:21:23.290Z",
+            "modified": "2024-05-28T16:56:55.975Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firtname\": \"Vương\",\n  \"lastname\": \"Nguyễn\",\n  \"password\": \"123456789\",\n  \"phonenumber\": \"09866209912\",\n  \"email\": \"nguye34567@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0401389e-dc92-4cfa-b367-d127d5d0ed9f",
+            "colId": "77ccb12c-3c17-43a8-b807-606284892e3b",
+            "containerId": "",
+            "name": "login_account",
+            "url": "http://localhost:5030/account/loginAccount",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-28T16:19:44.340Z",
+            "modified": "2024-05-28T16:24:13.904Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"nguye4567@gmail.com\",\n  \"password\":\"0986620991\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a6429dbf-9902-440c-9eb7-395cf460ca82",
+            "colId": "77ccb12c-3c17-43a8-b807-606284892e3b",
+            "containerId": "",
+            "name": "edit_account",
+            "url": "http://localhost:5030/account/editAccount",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-28T16:37:28.238Z",
+            "modified": "2024-05-28T16:47:39.378Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"account_id\":\"6656048131c51fb720f7d79a\",\n  \"firtname\": \"Vương\",\n  \"lastname\": \"Nguyễn\",\n  \"phonenumber\": \"0986620991\",\n  \"email\": \"nguye4567@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "15ed7fa4-f766-498b-8f9f-85c6894704c6",
+            "colId": "77ccb12c-3c17-43a8-b807-606284892e3b",
+            "containerId": "",
+            "name": "change_password_account",
+            "url": "http://localhost:5030/account/changePassword",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-05-28T16:54:02.468Z",
+            "modified": "2024-05-28T16:57:09.481Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"oldPassword\":\"123456789\",\n  \"newPassword\":\"0986620991\",\n  \"account_id\":\"6656048131c51fb720f7d79a\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "u6LFw49d8ULOD-k1rFpBsEW1JLavIVnxRcC609_hXhC9qqv_woj_KneMInMX4uy4DaLm4V8QLmFLKZpmlkf_sQ"
+}
