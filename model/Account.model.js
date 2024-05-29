@@ -23,7 +23,10 @@ const accountSchema = new mongoose.Schema({
         type: String,
         default: null
     },
-}, { collection: 'Account', timestamps: true});
+}, {
+    collection: 'Account',
+    timestamps: true
+});
 
 module.exports = mongoose.model('Account', accountSchema);
 

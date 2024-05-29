@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const AccountController = require('../controller/account.controller');
-const asyncHandler = require('../helper/asyncHandler');
+const asyncHandler = require('../core/asyncHandler');
 
 
 router.get('/', (req, res) => {
